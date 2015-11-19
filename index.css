@@ -8,11 +8,10 @@ body {
 }
 header {
   background: #f07057;
-  height:300px;
-  padding-top: 50px;
+  height:500px;
+  /*padding-top: 50px;*/
   top: 0;
   width: 100%
-
 }
 .main-nav {
   background: #fff;
@@ -37,10 +36,12 @@ header {
   position: relative;
   color: white;
   background-image: url('dist/images/coffee machine.jpg');
+  float: top;
+  background-repeat: repeat;
 }
 
 h1 {
-  padding: 40px 15px;
+  padding: 250px 15px;
   text-align: center;
   text-transform: uppercase;
 }
