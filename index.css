@@ -67,3 +67,7 @@ a {
   z-index: 100;
   border-top: 0;
 }
+.item-active .item {
+  display: block;
+  outline-width: 300px;
+}
