@@ -50,14 +50,17 @@ ul {
   margin: 0;
   padding: 0;
 }
-li {
-  display: inline;
-  float: left;
+#nav {
+  text-align: center;
 }
-a {
-  display: block;
-  width: 150px;
-  /*text-align: center;*/
+#nav li {
+  display: inline;
+  /*float: left;*/
+}
+#nav a {
+  /*display: block;
+  width: 150px;*/
+  padding:0 30px;
 }
 .sticky {
   position: fixed;
