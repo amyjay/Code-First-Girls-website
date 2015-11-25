@@ -24,6 +24,7 @@ header {
   position: relative;
   padding: 110px;
   background-color: #f2f2f2;
+  font-family: "Times New Roman" ;
 }
 /*.header img {
   float: center;
@@ -38,29 +39,32 @@ header {
   float: top;
   background-repeat: repeat;
   font-size: 70px;
+  font-family: "Times New Roman" ;
 }
-
 h1 {
-  padding: 250px 15px;
+  padding: 200px 15px;
   text-align: center;
   text-transform: uppercase;
 }
-ul {
+#nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
-#nav {
+/*#nav {
   text-align: center;
-}
+  font-family: "Times New Roman" ;
+}*/
 #nav li {
-  display: inline;
-  /*float: left;*/
+  display: inline-block;
+  float: left;
 }
 #nav a {
-  /*display: block;
-  width: 150px;*/
-  padding:0 30px;
+  display: block;
+  width: 150px;
+  /*padding:0 30px;*/
+  font-family: "Times New Roman" ;
+  font-size: 17px;
 }
 .sticky {
   position: fixed;
@@ -69,6 +73,9 @@ ul {
   top: 0;
   z-index: 100;
   border-top: 0;
+}
+p {
+  font-size: 15px;
 }
 .panels {
   /*padding: 110px;*/
